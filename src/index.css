@@ -13,10 +13,30 @@
 .container{
     margin: 0 auto;
     max-width: 1216px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_left{
+    width: 50%;
+    padding-right: 48px;
+}
+
+.content_right{
+    width: 50%;
+    padding-left: 48px;
 }
 
 :root{
 
  --color-laranja:#FF4900;
+ --color-white:#fff;
  
+}
+
+.section_total{
+    padding: 99px 20px;
+  
 }
