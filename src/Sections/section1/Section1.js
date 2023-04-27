@@ -1,9 +1,11 @@
 import React from "react";
 import "./Section1.css";
-import mock1 from '../img/mockup1.png';
+import mock1 from '../../img/mockup1.png';
+import Button from "../../components/Button";
 
 
 const Section1 = () => {
+
   return (
     <div className="section_total section1">
       <div className="container">
@@ -16,14 +18,16 @@ const Section1 = () => {
           </h1>
           <p>
             Quer assistir tudo o que quiser? A Power Iptv tem a solução para
-            você.
+            você. 
           </p>
 
-          <button> QUERO ACESSAR OS MELHORES CANAIS</button>
+          <Button text="QUERO ACESSAR OS MELHORES CANAIS"/>
         </div>
+
         <div className="content_right">
             <img src={mock1} alt=""/>
         </div>
+
       </div>
     </div>
   );

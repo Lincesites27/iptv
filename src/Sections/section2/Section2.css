@@ -1,0 +1,44 @@
+.section2{
+
+    background-image: url(../../img/section2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.section2 .paragrafo{
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+
+.section2 h1{
+    color: var(--color-laranja);
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    gap:12px ;
+    margin-bottom:32px;
+}
+
+
+
+.infos .conteudo_texto {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.infos .conteudo_titulo {
+    color: var(--color-laranja);
+    font-weight: 700;
+    font-size: 18px;
+}
