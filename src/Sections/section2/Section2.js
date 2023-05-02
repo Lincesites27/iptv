@@ -6,6 +6,10 @@ import icone2 from "../../img/icone2.svg";
 import icone3 from "../../img/icone3.svg";
 
 const Section2 = () => {
+
+ 
+
+
   return (
    <div className="section_total section2">
       <div className="container">
