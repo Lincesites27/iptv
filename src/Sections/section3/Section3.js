@@ -7,6 +7,9 @@ import icone7 from "../../img/icone7.svg";
 import Button from "../../components/Button";
 
 const Section3 = () => {
+
+  
+
   return (
     <div className="section_total section3">
       <div className="container2">

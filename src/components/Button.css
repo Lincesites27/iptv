@@ -8,5 +8,10 @@ button{
     box-shadow: 2px 2px 10px #FF4900;
     border-radius: 8px;
     border: 1px solid var(--color-laranja);
+    cursor: pointer;
+   transition: 0.5s;
+}
 
+button:hover{
+    scale: 1.05;
 }

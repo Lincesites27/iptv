@@ -51,3 +51,44 @@
     padding: 99px 20px;
   
 }
+
+/* -------- ANIMAÇÃO DE ENTRADA CSS COM BIBLIOTECA INTERSECTION --------
+--------- import { useInView } from 'react-intersection-observer'-------
+
+-- EXEMPLO DE COMO DEVE SER COLOCADO NA DIV -------
+const { ref: leftRef, inView: leftInView } = useInView({
+    threshold: 0.5, // Ajuste a porcentagem de visibilidade necessária para ativar a animação
+    triggerOnce: true // Garante que a animação só seja executada uma vez
+  });
+
+  const { ref: rightRef, inView: rightInView } = useInView({
+    threshold: 0.5, // Ajuste a porcentagem de visibilidade necessária para ativar a animação
+    triggerOnce: true // Garante que a animação só seja executada uma vez
+  }); */
+
+
+
+
+  /* @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }  */
+
+  
