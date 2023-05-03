@@ -1,0 +1,27 @@
+.section5{
+    background-image: url(../../img/section5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5 p{
+    color: var(--color-white);
+    text-align: start;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section5 p span{
+    color: var(--color-laranja);
+} 
+
+.section5 .content_center{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:1000px){
+    .section5 .content_center{
+        flex-direction: column;
+    }
+}

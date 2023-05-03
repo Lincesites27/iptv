@@ -33,3 +33,28 @@
     padding-bottom: 32px;
 }
 
+@media(max-width:1000px){
+
+    .section1 h2{
+        font-size: 18px;
+    }
+
+    .section1 h1{
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .section1 h2{
+        font-size: 16px ;
+    }
+
+    .section1 h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+}
+

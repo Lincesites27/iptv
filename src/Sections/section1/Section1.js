@@ -6,9 +6,7 @@ import Button from "../../components/Button";
 
 const Section1 = () => {
 
-  
-  
-   
+      
   return (
     <div className="section_total section1">
       <div className="container">

@@ -6,9 +6,7 @@
   
 }
 
-.content_center{
-    text-align: center;
-}
+
 
 .content_center h2{
     color: var(--color-white);
@@ -26,13 +24,14 @@
 
 .section3 .cards{
 
+ 
    display: flex;
    gap: 24px;
    padding-bottom: 42px;
 }
 
 .section3 .card{
-     width: calc(100% / 4); 
+     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -57,4 +56,10 @@
     font-size: 16px;
     line-height: 19px;
     font-weight: 700;
+}
+
+@media(max-width:1000px){
+    .cards{
+        flex-direction: column;
+    }
 }
